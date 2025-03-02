@@ -11,14 +11,8 @@ class TestFunnyString(unittest.TestCase):
         self.assertEqual(funnyString("madam"), "Funny")
         self.assertEqual(funnyString("racecar"), "Funny")
         self.assertEqual(funnyString("abccba"), "Funny")
-        self.assertEqual(funnyString(""), "Funny")  # Empty string
-        self.assertEqual(funnyString("a"), "Funny")  # Single character string
-        self.assertEqual(funnyString("z"), "Funny")  # Single character string
+        self.assertEqual(funnyString(""), "Funny")
+        self.assertEqual(funnyString("a"), "Funny")
+        self.assertEqual(funnyString("z"), "Funny")
         self.assertEqual(funnyString("abcdedcba"), "Funny")
-
-        # Case where the string is not funny
         self.assertEqual(funnyString("abc"), "Funny")
-
-
-if __name__ == "__main__":
-    unittest.main()

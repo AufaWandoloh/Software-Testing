@@ -32,7 +32,3 @@ class TestAlternatingCharacters(unittest.TestCase):
     def test_alternating_characters(self):
         self.assertEqual(alternatingCharacters("ABABAB"), 0)
         self.assertEqual(alternatingCharacters("BABABA"), 0)
-
-
-if __name__ == "__main__":
-    unittest.main()
