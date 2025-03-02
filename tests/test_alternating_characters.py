@@ -1,7 +1,5 @@
 import unittest
-from algorithm.alternating_characters import (
-    alternatingCharacters,
-)
+from algorithm.alternating_characters import alternatingCharacters
 
 
 class TestAlternatingCharacters(unittest.TestCase):
